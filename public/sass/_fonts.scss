@@ -1,0 +1,18 @@
+$fonts: '../fonts/';
+
+@font-face {
+  font-family: 'Circe';
+  src:
+    local('Circe'),
+    local('Circe-Regular'),
+    url($fonts + 'Circe/Circe-Regular.woff2') format('woff2'),
+    url($fonts + 'Circe/Circe-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin circe {
+  font-family: 'Circe', sans-serif;
+  font-weight: normal;
+}
+
